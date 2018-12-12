@@ -14,7 +14,7 @@
 	<br>
 	<c:if
 		test="${sessionScope.user.getClass() eq 'class com.encore.model.userDTO' }">
-		<a href="${path }/student/studentlist.nk">모두 조회</a>
+		<a href="${path }/student/studentlist.nk">모두 조회하기</a>
 		<a href="${path }/student/studentinfo.nk">학생 조회</a>
 		<a href="${path }/student/majorinfo.nk">전공 조회</a>
 		<br>
